@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <style>
+        /* Estilos para a lista de compras */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-left: 0; /* Remover a margem padrão */
+        }
+
+        li {
+            margin-bottom: 20px; /* Espaço entre os itens */
+        }
+
+        .item-nome {
+            font-size: 20px; /* Tamanho maior do nome */
+            font-weight: bold; /* Deixar o nome em negrito */
+            margin-bottom: 10px; /* Espaço entre o nome e a imagem */
+        }
+
+        img {
+            width: 150px; /* Tamanho das imagens */
+            height: auto; /* Manter a proporção da imagem */
+        }
+
+        body {
+            padding-left: 20px; /* Espaço da borda esquerda da tela */
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha Lista de Compras</h1>
+    
+    <h2>Itens da lista:</h2>
+    <ul>
+        <li>
+            <div class="item-nome">Arroz</div>
+            <img src="https://applicativa-marketplace-prod.s3.amazonaws.com/arroz-tipo-1-camil--5kg-0-7896006711155.webp" alt="Arroz">
+        </li>
+        <li>
+            <div class="item-nome">Feijão</div>
+            <img src="https://m.media-amazon.com/images/I/815s35jNVkL.jpg" alt="Feijão">
+        </li>
+        <li>
+            <div class="item-nome">Macarrão</div>
+            <img src="https://www.davo.com.br/ccstore/v1/images/?source=/file/v7173402153024082117/products/prod_7896022200213.imagem1.jpg&height=940&width=940" alt="Macarrão">
+        </li>
+        <li>
+            <div class="item-nome">Óleo</div>
+            <img src="https://m.media-amazon.com/images/I/71q8qSfk3xL.jpg" alt="Óleo">
+        </li>
+        <li>
+            <div class="item-nome">Açúcar</div>
+            <img src="https://propao.agilecdn.com.br/1744_1.jpg" alt="Açúcar">
+        </li>
+        <li>
+            <div class="item-nome">Sal</div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDMLQTkCCrikuFXI9h5fDxvD1TtTssvKF2ZQ&s" alt="Sal">
+        </li>
+        <li>
+            <div class="item-nome">Leite</div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQ8ivFabG_2C3v1lw0snrP4GXvdO2v8OM0Q&s" alt="Leite">
+        </li>
+        <li>
+            <div class="item-nome">Queijo</div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStNI4e17txYsLjIPguBMKHVR5exltb16iP2w&s" alt="Queijo">
+        </li>
+        <li>
+            <div class="item-nome">Presunto</div>
+            <img src="https://brf.file.force.com/servlet/servlet.ImageServer?id=0154w000024mJzR&oid=00D410000012TJa&lastMod=1692792121000" alt="Presunto">
+        </li>
+        <li>
+            <div class="item-nome">Carne</div>
+            <img src="https://phygital-files.mercafacil.com/paxaemcasa/uploads/produto/picanha_a_friboi_kg_somente_o_pacote_fechado__a3e7b321-b63a-4baf-acd0-08ea940ed125.thumbnail.png" alt="Carne">
+        </li>
+        <li>
+            <div class="item-nome">Frango</div>
+            <img src="https://www.friboionline.com.br/ccstore/v1/images/?source=/file/v3612633731075666871/products/368819_00_frango-carcaca-pacote-1-1kg-seara-ave-congelado.png&height=475&width=475" alt="Frango">
+        </li>
+    </ul>
+
+    <form action="#">
+        <label for="novo-item">Adicionar novo item:</label>
+        <input type="text" id="novo-item" name="novo-item">
+        <input type="submit" value="Adicionar">
+    </form>
+</body>
+</html>
+
+
